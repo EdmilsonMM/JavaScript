@@ -168,3 +168,15 @@ console.log(resultado)*/
 }
 
 saludo()*/
+
+/*
+const login = (id,contraseña)=>{
+    if(id == "mclovind" && contraseña == 12345)
+        console.log("Iniciando Sesion....") 
+    else
+        console.log("Contraseña o id incorrecto")
+    
+}
+
+login("mclovind",12345)*/
+
