@@ -64,8 +64,8 @@ pokemones()*/
 }
 
 NombresPokemon()*/
-/*
-const NombresPokemon = async()=>{
+
+/*const NombresPokemon = async()=>{
     try{
 
         const res = await fetch(url)
@@ -80,3 +80,19 @@ const NombresPokemon = async()=>{
 }
 
 NombresPokemon()*/
+/*
+const  url = "https://rickandmortyapi.com/api/character/"
+
+const rick = async()=>{
+    try{
+        const res = await fetch(url)
+        const data = await res.json()
+        //const person = data.results.map(perso => perso.name)
+        const persona = data.results.filter(perso => perso.name === "Rick Sanchez")
+        console.log(persona)
+    }catch(error){
+        console.log(error)
+    }
+}
+
+rick()*/

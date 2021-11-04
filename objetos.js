@@ -45,8 +45,8 @@ console.log(usuario)*/
 
  console.log(enlace)
  //console.log(web.redes.youtube.enlace)*/
-/*
- const cine = {
+
+ /*const cine = {
      año:{
          2021:{
              genero:{
@@ -78,7 +78,11 @@ console.log(usuario)*/
          2020:"No hay peliculas en la base de datos"
      }
 
- }*/
+ }
+
+ const {terror,comedia,drama,romance} = cine.año[2021].genero
+
+ console.log(romance)*/
 
  //const gene= [ cine.año[2021].genero.terror.map(nam => nam.names) ]
  //const terro =cine.año[2021].genero.terror.map(nam => nam.names)
@@ -100,3 +104,4 @@ console.log(usuario)*/
 //console.log(cine.año[2021].genero.terror)
 //console.log(drama,comedia)
 //console.log(gene)
+
